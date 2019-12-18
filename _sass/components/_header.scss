@@ -64,16 +64,17 @@
   @include flexbox();
   @include align-items(center);
   & > svg {
-    width: 10em;
-    height: unset;
+    width: unset;
+    height: 100%;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: 5em;
-      height: unset;
+      width: unset;
+      height: 100%;
     }
   }
   & > a {
+    height: 100%;
     display: inline-block;
     font-size: map-get($base, font-size-h4);
     @include media-breakpoint-down(md) {
