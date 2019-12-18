@@ -1,6 +1,10 @@
 /* start custom scss snippet */
-.header__title .header__brand a > svg {
-  width: 10em;
+.header__title .header__brand a {
+  height:100%;
+  
+  & > svg {
+    height:100%;
+  } 
 }
 
 /* end custom scss snippet */
